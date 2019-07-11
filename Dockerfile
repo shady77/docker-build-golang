@@ -6,3 +6,4 @@ RUN go get github.com/micro/protobuf/protoc-gen-go
 RUN go get -u github.com/swaggo/swag/cmd/swag
 RUN go get -u github.com/golangci/golangci-lint/cmd/golangci-lint
 RUN go get github.com/gojp/goreportcard/cmd/goreportcard-cli
+RUN curl -L https://git.io/vp6lP | sh
